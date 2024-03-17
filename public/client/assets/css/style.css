@@ -1240,6 +1240,59 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Buy
+--------------------------------------------------------------*/
+
+.buy h4 {
+  font-size: 42px;
+  color: #3498db;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+
+.buy h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+
+.buy .btn-buy {
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 50px;
+  border: 2px solid #3498db;
+  color: #3498db;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.buy .btn-buy:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.buy .recommended {
+  border-color: #3498db;
+}
+
+.buy .recommended .btn-buy {
+  background: #3498db;
+  color: #fff;
+}
+
+.buy .recommended .btn-buy:hover {
+  background: #2383c4;
+  border-color: #2383c4;
+}
+
+
+/*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {

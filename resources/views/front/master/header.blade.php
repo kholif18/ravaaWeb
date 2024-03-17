@@ -3,9 +3,9 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="{{ url('/') }}">Ravaa Studio</a></h1>
+        {{-- <h1><a href="{{ url('/') }}">Ravaa Studio</a></h1> --}}
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="{{ url('/') }}"><img src="{{ asset('client/assets/img/web-logo.png') }}" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -14,6 +14,11 @@
           <li><a href="{{ url('/banner') }}">Banner</a></li>
           <li><a href="#">Cetak</a></li>
           <li><a href="#">Desain</a></li>
+          <li class="dropdown"><a href="#"><span>Form</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="{{ url('/form-undangan') }}">Form Undangan</a></li>
+              <li><a href="#">Form Nama Bayi</a></li>
+            </ul>
           <li><a href="#">Sablon</a></li>
           <li class="dropdown"><a href="#"><span>Undangan</span> <i class="bi bi-chevron-down"></i></a>
             <ul>

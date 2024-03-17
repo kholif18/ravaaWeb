@@ -17,3 +17,7 @@ Route::get('/banner', function () {
 Route::get('/detail', function () {
     return view('front.detail');
 });
+
+Route::get('/form-undangan', function () {
+    return view('front.form-undangan');
+});

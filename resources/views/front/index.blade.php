@@ -25,8 +25,6 @@
 
 </section><!-- End Hero -->
 
-<main id="main">
-
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
     <div class="container">
@@ -317,6 +315,4 @@
 
     </div>
   </section><!-- End Contact Section -->
-
-</main><!-- End #main -->
 @endsection

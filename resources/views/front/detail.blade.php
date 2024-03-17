@@ -50,15 +50,15 @@
           </div>
 
           <div class="col-lg-6">
-            <div class="portfolio-info">
+            <div class="portfolio-info buy">
               <h3>Cetak Banner</h3>
-              <h3>Rp 25.000</h3>
+              <h4>Rp 25.000</h4>
               <ul>
                 <li><strong>kategori</strong>: Banner</li>
                 <li><strong>Stok</strong>: Ready</li>
-                <li><div class="btn">
-                    <a href="#" class="btn-buy"><i class="bi bi-whatsapp"></i> Tanya Whatsapp</a>
-                  </div></li>
+                <li><strong>Pengiriman dari</strong>: Ngluyu, Nganjuk, Jawa Timur</li>
+                <li><a href="#" class="btn-buy"><i class="bi bi-whatsapp"></i> Order Whatsapp</a>
+                    </li>
                 {{-- <li><div class="btn-wrap">
                     <a href="#pricing" class="btn-buy"><i class="bi bi-whatsapp"></i></a>
                   </div></li> --}}
