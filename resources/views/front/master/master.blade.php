@@ -34,15 +34,12 @@
 @includeIf('front.master.header')
   
 <main id="main">
-  @section('breadcrumbs')
+
     @yield('breadcrumbs')
-  @endsection
   <!-- Main content -->
-  <section class="content">
 
-      @yield('content')
+    @yield('content')
 
-  </section>
   <!-- /.content -->
   </main>
 {{-- Footer --}}

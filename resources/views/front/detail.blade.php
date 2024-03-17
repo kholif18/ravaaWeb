@@ -10,9 +10,9 @@
         <div class="container">
   
           <div class="d-flex justify-content-between align-items-center">
-            <h2>@yield('title')</h2>
+            <h2>Product Details</h2>
             <ol>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="{{ url('/') }}">Home</a></li>
               <li>Product Details</li>
             </ol>
           </div>
@@ -28,7 +28,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
+          <div class="col-lg-6">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
@@ -49,24 +49,33 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>Cetak Banner</h3>
+              <h3>Rp 25.000</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>kategori</strong>: Banner</li>
+                <li><strong>Stok</strong>: Ready</li>
+                <li><div class="btn">
+                    <a href="#" class="btn-buy"><i class="bi bi-whatsapp"></i> Tanya Whatsapp</a>
+                  </div></li>
+                {{-- <li><div class="btn-wrap">
+                    <a href="#pricing" class="btn-buy"><i class="bi bi-whatsapp"></i></a>
+                  </div></li> --}}
               </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
             </div>
           </div>
 
+        </div>
+        <div class="row gy-4">
+            <div class="col-12">
+                <div class="portfolio-description">
+                    <h2>Product Description</h2>
+                    <p>
+                        Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                    </p>
+                </div>
+            </div>
         </div>
 
       </div>
