@@ -17,7 +17,7 @@
           <li class="dropdown"><a href="#"><span>Form</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{{ url('/form-undangan') }}">Form Undangan</a></li>
-              <li><a href="#">Form Nama Bayi</a></li>
+              <li><a href="{{ url('/form-bayi') }}">Form Nama Bayi</a></li>
             </ul>
           <li><a href="#">Sablon</a></li>
           <li class="dropdown"><a href="#"><span>Undangan</span> <i class="bi bi-chevron-down"></i></a>
