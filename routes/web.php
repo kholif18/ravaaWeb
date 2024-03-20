@@ -25,3 +25,7 @@ Route::get('/form-undangan', function () {
 Route::get('/form-bayi', function () {
     return view('front.form-bayi');
 });
+
+Route::get('/dashboard', function () {
+    return view('back.index');
+});
