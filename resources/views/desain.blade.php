@@ -34,13 +34,13 @@
                                 <div class="col-lg-12">
                                     <form id="search-form" name="gs" method="submit" role="search" action="#">
                                         <div class="row">
-                                            <div class="col-lg-10">
+                                            <div class="col-lg-9">
                                                 <fieldset>
                                                     <label for="item" class="form-label">Search Any Item</label>
                                                     <input type="text" id="item" name="item" class="searchText" placeholder="Item Name..." autocomplete="on" required>
                                                 </fieldset>
                                             </div>
-                                            <div class="col-lg-2">
+                                            <div class="col-lg-3">
                                                 <fieldset>
                                                     <button class="main-button">Search Now</button>
                                                 </fieldset>
