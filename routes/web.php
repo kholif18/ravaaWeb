@@ -60,3 +60,7 @@ Route::get('/undangan/undangan-kita', function () {
 Route::get('/undangan/website', function () {
     return view('undangan.website');
 });
+
+Route::get('/detail', function () {
+    return view('product-detail');
+});

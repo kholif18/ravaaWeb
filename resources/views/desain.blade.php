@@ -60,20 +60,20 @@
                                     <div class="content">
                                         <div class="top-shop">
                                             <span class="award">Harga</span>
-                                            <span class="price">Rp 1.200</span>
+                                            <span class="price">Rp 20.000</span>
                                         </div>
-                                        <h4>Undangan F-104</h4>
+                                        <h4>Desain Nama Bayi</h4>
                                         <div class="shop">
                                             <table>
                                                 <tr>
                                                     <td>Bahan</td>
                                                     <td>:</td>
-                                                    <td>Kertas BC</td>
+                                                    <td>Custom</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Ukuran terbuka</td>
                                                     <td>:</td>
-                                                    <td>24x21 cm</td>
+                                                    <td>100x70 cm</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Ukuran tertutup</td>
@@ -83,8 +83,7 @@
                                             </table>
                                         </div>
                                         <div class="border-button">
-                                            <a href="https://wa.me/+6282233377661?text=Kak%20saya%20mau%20pesan%20undangan%20F-104">Pesan
-                                                Sekarang</a>
+                                            <a href="{{ url('/detail') }}">Detail Product</a>
                                         </div>
                                     </div>
                                 </div>
@@ -100,9 +99,9 @@
                                     <div class="content">
                                         <div class="top-shop">
                                             <span class="award">Harga</span>
-                                            <span class="price">Rp 1.200</span>
+                                            <span class="price">Rp 15.000</span>
                                         </div>
-                                        <h4>Undangan F-115</h4>
+                                        <h4>Desain Sticker</h4>
                                         <div class="shop">
                                             <table>
                                                 <tr>
@@ -123,8 +122,8 @@
                                             </table>
                                         </div>
                                         <div class="border-button">
-                                            <a href="https://wa.me/+6282233377661?text=Kak%20saya%20mau%20pesan%20undangan%20F-104">Pesan
-                                                Sekarang</a>
+                                            <a href="{{ url('/detail') }}">Detail Product</a>
+
                                         </div>
                                     </div>
                                 </div>
@@ -163,8 +162,8 @@
                                             </table>
                                         </div>
                                         <div class="border-button">
-                                            <a href="https://wa.me/+6282233377661?text=Kak%20saya%20mau%20pesan%20undangan%2088217">Pesan
-                                                Sekarang</a>
+                                            <a href="{{ url('/detail') }}">Detail Product</a>
+
                                         </div>
                                     </div>
                                 </div>
@@ -203,8 +202,7 @@
                                             </table>
                                         </div>
                                         <div class="border-button">
-                                            <a href="https://wa.me/+6282233377661?text=Kak%20saya%20mau%20pesan%20undangan%2088218">Pesan
-                                                Sekarang</a>
+                                            <a href="{{ url('/detail') }}">Detail Product</a>
                                         </div>
                                     </div>
                                 </div>
