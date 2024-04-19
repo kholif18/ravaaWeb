@@ -1099,6 +1099,22 @@ section {
   padding-top: 40px;
 }
 
+.price h2 {
+  padding: 15px 0 0 0;
+  color: #3498db;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.price-discount h6 {
+  padding: 15px 0 0 0;
+  color: #000;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  text-decoration: line-through;
+}
+
 .portfolio-details .btn-wrap {
   padding: 20px 0 0 0;
 }

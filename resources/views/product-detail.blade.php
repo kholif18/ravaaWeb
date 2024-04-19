@@ -59,6 +59,12 @@
                                 <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
                             </ul>
                         </div>
+                        <div class="price-discount">
+                            <h6>Rp 40.000</h6>
+                        </div>
+                        <div class="price">
+                            <h2>Rp 20.000</h2>
+                        </div>
                         <div class="btn-wrap">
                             <a href="#" class="btn-buy">Buy Now</a>
                         </div>
